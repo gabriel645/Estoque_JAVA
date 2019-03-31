@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="225.0" prefWidth="388.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PrincipalController">
+   <children>
+      <Button layoutX="60.0" layoutY="74.0" mnemonicParsing="false" onAction="#showEntrada" prefHeight="47.0" prefWidth="103.0" text="Entrada" />
+      <Button layoutX="235.0" layoutY="74.0" mnemonicParsing="false" onAction="#showSaida" prefHeight="47.0" prefWidth="103.0" text="Saida" />
+      <Button layoutX="60.0" layoutY="153.0" mnemonicParsing="false" onAction="#showCadastro" prefHeight="47.0" prefWidth="103.0" text="Cadastros" />
+      <Button layoutX="235.0" layoutY="153.0" mnemonicParsing="false" onAction="#showRelatorio" prefHeight="47.0" prefWidth="103.0" text="Relatório" />
+      <Label layoutX="63.0" layoutY="20.0" prefHeight="21.0" prefWidth="317.0" text="Controle de Estoque - Olimpia Spa">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
